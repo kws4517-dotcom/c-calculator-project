@@ -1,0 +1,8 @@
+services:
+  c-calculator:
+    image: ghcr.io/kws4517-dotcom/c-calculator-project:latest
+    container_name: c-calculator-prod
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
